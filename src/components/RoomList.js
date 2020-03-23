@@ -1,10 +1,13 @@
-import React from "react"
+import React from 'react'
 
-class NewRoomForm extends React.Component {
-    render() {
+class RoomList extends React.Component {
+    render () {
         return (
-            <div className="message List"></div>
+            <div className="rooms-list">
+                <div className="help-text">RoomList</div>
+            </div>
         )
     }
 }
-export default NewRoomForm
+
+export default RoomList

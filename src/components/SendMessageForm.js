@@ -1,12 +1,15 @@
-import React from "react"
+import React from 'react'
 
 class SendMessageForm extends React.Component {
     render() {
         return (
-            <div className="SendMessageForm">
-                <p></p>
-            </div>
+            <form className="send-message-form">
+                <input
+                    placeholder="SendMessageForm"
+                    type="text" />
+            </form>
         )
     }
 }
+
 export default SendMessageForm
