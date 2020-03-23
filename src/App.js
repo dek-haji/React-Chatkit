@@ -7,6 +7,17 @@ import NewRoomForm from './components/NewRoomForm'
 
 
 class App extends React.Component {
+    componentDidMount() {
+        const chatManager = new Chatkit.ChatManager({
+            instanceLocator,
+            userId: 'perborgan',
+            tokenProvider: new Chatkit.tokenProvider({
+                url: tokenUrl
+            })
+        })
+    }
+
+
     render() {
         return (
           <div className="app">
