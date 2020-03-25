@@ -12,7 +12,6 @@ class App extends React.Component {
             // instanceLocator,
             userId: 'perborgan',
             tokenProvider: new Chatkit.tokenProvider({
-               
             })
         })
     }
